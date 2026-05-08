@@ -52,6 +52,7 @@ sha256: <hex digest of body>
 ### Models & Architectures
 - `model`: 具体模型名称
 - `vae`: 变分自编码器相关
+- `vqvae`: VQ-VAE / 向量量化
 - `gan`: 生成对抗网络
 - `diffusion`: 扩散模型
 - `autoregressive`: 自回归模型
@@ -62,6 +63,7 @@ sha256: <hex digest of body>
 
 ### Tasks & Methods
 - `molecule-generation`: 分子生成
+- `language-modeling`: 语言建模
 - `de-novo`: 从头药物设计
 - `inverse-synthesis`: 逆合成分析
 - `property-prediction`: 性质预测
@@ -83,6 +85,8 @@ sha256: <hex digest of body>
 
 ### Meta
 - `comparison`: 对比分析
+- `agi`: 通用人工智能 / AGI 理论
+- `cognitive-science`: 认知科学
 - `review`: 综述
 - `timeline`: 时间线
 - `open-question`: 开放问题

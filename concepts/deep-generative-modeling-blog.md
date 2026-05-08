@@ -23,34 +23,34 @@ confidence: high
 ## 博文目录
 
 ### 基础篇
-| # | 标题 | 内容概要 |
-|---|------|---------|
-| 1 | [Introduction](https://jmtomczak.github.io/blog/1/1_introduction.html) | 为什么需要生成模型？三大流派总览：ARM、Flow、LVM |
-| 2 | [Autoregressive Models](https://jmtomczak.github.io/blog/2/2_ARM.html) | 自回归模型核心思想：概率链式法则分解 |
-| 3 | [Flow-based Models](https://jmtomczak.github.io/blog/3/3_flows.html) | 归一化流：可逆变换下的密度估计 |
-| 4 | [VAE](https://jmtomczak.github.io/blog/4/4_VAE.html) | 变分自编码器：ELBO、重参数化技巧 |
-| 5 | [Improved Density Flow (IDF)](https://jmtomczak.github.io/blog/5/5_IDF.html) | 改进的密度流模型 |
-| 6 | [Hybrid Models](https://jmtomczak.github.io/blog/6/6_hybrid.html) | 混合模型：结合不同生成范式 |
-| 7 | [VAE Priors](https://jmtomczak.github.io/blog/7/7_priors.html) | VAE 先验的重要性——被忽视的关键组件 |
+| #   | 标题                                                                           | 内容概要                          |
+| --- | ---------------------------------------------------------------------------- | ----------------------------- |
+| 1   | [Introduction](https://jmtomczak.github.io/blog/1/1_introduction.html)       | 为什么需要生成模型？三大流派总览：ARM、Flow、LVM |
+| 2   | [Autoregressive Models](https://jmtomczak.github.io/blog/2/2_ARM.html)       | 自回归模型核心思想：概率链式法则分解            |
+| 3   | [Flow-based Models](https://jmtomczak.github.io/blog/3/3_flows.html)         | 归一化流：可逆变换下的密度估计               |
+| 4   | [VAE](https://jmtomczak.github.io/blog/4/4_VAE.html)                         | 变分自编码器：ELBO、重参数化技巧            |
+| 5   | [Improved Density Flow (IDF)](https://jmtomczak.github.io/blog/5/5_IDF.html) | 改进的密度流模型                      |
+| 6   | [Hybrid Models](https://jmtomczak.github.io/blog/6/6_hybrid.html)            | 混合模型：结合不同生成范式                 |
+| 7   | [VAE Priors](https://jmtomczak.github.io/blog/7/7_priors.html)               | VAE 先验的重要性——被忽视的关键组件          |
 
 ### 进阶篇
-| # | 标题 | 内容概要 |
-|---|------|---------|
-| 8 | [Neural Compression](https://jmtomczak.github.io/blog/8/8_neural_compression.html) | 生成模型与神经压缩的深层联系 |
-| 9 | [Hierarchical LVMs (Part 1)](https://jmtomczak.github.io/blog/9/9_hierarchical_lvm_p1.html) | 层次化潜变量模型 |
-| 10 | [Diffusion-based DGMs (Part 2)](https://jmtomczak.github.io/blog/10/10_ddgms_lvm_p2.html) | 扩散模型（DDGM / DDPM） |
-| 11 | [Energy-Based Models](https://jmtomczak.github.io/blog/11/11_energy_based_models.html) | 能量模型与 Langevin 动力学 |
-| 12 | [GANs](https://jmtomczak.github.io/blog/12/12_gans.html) | 生成对抗网络 |
-| 15 | [ARMs × Transformers](https://jmtomczak.github.io/blog/15/15_transformers.html) | Transformer 参数化的自回归模型 |
-| 16 | [Score Matching](https://jmtomczak.github.io/blog/16/16_score_matching.html) | 基于分数的模型：Score Matching 方法 |
-| 17 | [Score-based GMs (SDEs/ODEs)](https://jmtomczak.github.io/blog/17/17_sbgms.html) | 基于分数的生成模型与 SDE/ODE 框架 |
-| 18 | [Flow Matching](https://jmtomczak.github.io/blog/18/18_fm.html) | 流匹配——用 ODE 做生成 |
-| 19 | [Mixture Models](https://jmtomczak.github.io/blog/19/19_mog_pcs.html) | 混合模型视角下的生成建模 |
+| #   | 标题                                                                                          | 内容概要                      |
+| --- | ------------------------------------------------------------------------------------------- | ------------------------- |
+| 8   | [Neural Compression](https://jmtomczak.github.io/blog/8/8_neural_compression.html)          | 生成模型与神经压缩的深层联系            |
+| 9   | [Hierarchical LVMs (Part 1)](https://jmtomczak.github.io/blog/9/9_hierarchical_lvm_p1.html) | 层次化潜变量模型                  |
+| 10  | [Diffusion-based DGMs (Part 2)](https://jmtomczak.github.io/blog/10/10_ddgms_lvm_p2.html)   | 扩散模型（DDGM / DDPM）         |
+| 11  | [Energy-Based Models](https://jmtomczak.github.io/blog/11/11_energy_based_models.html)      | 能量模型与 Langevin 动力学        |
+| 12  | [GANs](https://jmtomczak.github.io/blog/12/12_gans.html)                                    | 生成对抗网络                    |
+| 15  | [ARMs × Transformers](https://jmtomczak.github.io/blog/15/15_transformers.html)             | Transformer 参数化的自回归模型     |
+| 16  | [Score Matching](https://jmtomczak.github.io/blog/16/16_score_matching.html)                | 基于分数的模型：Score Matching 方法 |
+| 17  | [Score-based GMs (SDEs/ODEs)](https://jmtomczak.github.io/blog/17/17_sbgms.html)            | 基于分数的生成模型与 SDE/ODE 框架     |
+| 18  | [Flow Matching](https://jmtomczak.github.io/blog/18/18_fm.html)                             | 流匹配——用 ODE 做生成            |
+| 19  | [Mixture Models](https://jmtomczak.github.io/blog/19/19_mog_pcs.html)                       | 混合模型视角下的生成建模              |
 
 ### 前沿篇
-| # | 标题 | 内容概要 |
-|---|------|---------|
-| 21 | [GenAISys](https://jmtomczak.github.io/blog/21/21_genaisys.html) | 生成式 AI 系统：将生成模块组合为完整 AI 系统 |
+| #   | 标题                                                               | 内容概要                       |
+| --- | ---------------------------------------------------------------- | -------------------------- |
+| 21  | [GenAISys](https://jmtomczak.github.io/blog/21/21_genaisys.html) | 生成式 AI 系统：将生成模块组合为完整 AI 系统 |
 
 > 注：#13、#14、#20 暂未确认对应的公开博文。
 
